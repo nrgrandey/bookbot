@@ -7,7 +7,7 @@ def word_count(text):
     return num_words
 
 def character_count(text):
-    invalid_characters = set(" ,.!?;\":'-_—()*0123456789•[]$#%\\/&“”’‘™")
+    invalid_characters = set(" ,.!?;\":'-_—()*0123456789•[]$#%\\/&“”’‘™\n{}")
     text = text.lower()
     char_dict = {}
     for char in text:
